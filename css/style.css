@@ -1,0 +1,40 @@
+.well {
+  margin-top: 20px; }
+
+.icy, .downpour, .thunderAndShowers,
+.rainbow, .cloudy, .overcast, .rain,
+.snow, .sleet {
+  width: 130px;
+  height: 130px;
+  background-image: url(http://image.flaticon.com/sprites/new_packs/193686-weather.png);
+  position: relative;
+  display: inline-block; }
+
+.icy {
+  background-position: 566px -29px; }
+
+.downpour {
+  background-position: 366px -29px; }
+
+.thunderAndShowers {
+  background-position: 166px -217px; }
+
+.rainbow {
+  background-position: 566px -217px; }
+
+.cloudy {
+  background-position: 366px -217px; }
+
+.overcast {
+  background-position: 166px -217px; }
+
+.rain {
+  background-position: 566px -405px; }
+
+.snow {
+  background-position: 366px -405px; }
+
+.sleet {
+  background-position: 166px -405px; }
+
+/*# sourceMappingURL=style.css.map */

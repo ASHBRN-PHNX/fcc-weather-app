@@ -1,0 +1,47 @@
+// Variables
+$weatherHeight: 150px;
+$weatherWidth: 150px;
+$sprite: 'http://image.flaticon.com/sprites/new_packs/193686-weather.png';
+
+$spriteX: 566px;
+$spriteY: -29px;
+
+.well {
+  margin-top: 20px;
+}
+.icy, .downpour, .thunderAndShowers,
+.rainbow, .cloudy, .overcast, .rain,
+.snow, .sleet {
+  width: 130px;
+  height: 130px;
+  background-image: url(http://image.flaticon.com/sprites/new_packs/193686-weather.png);
+  position: relative;
+  display: inline-block;
+}
+.icy {
+  background-position: $spriteX $spriteY;
+}
+.downpour {
+  background-position: ($spriteX - 200) $spriteY;
+}
+.thunderAndShowers {
+  background-position: ($spriteX - 400) $spriteY - 188;
+}
+.rainbow {
+  background-position: $spriteX ($spriteY - 188);
+}
+.cloudy {
+  background-position: ($spriteX - 200) ($spriteY - 188);
+}
+.overcast {
+  background-position: ($spriteX - 400) ($spriteY - 188);
+}
+.rain {
+  background-position: $spriteX ($spriteY - 376);
+}
+.snow {
+  background-position: ($spriteX - 200) ($spriteY - 376);
+}
+.sleet {
+  background-position: ($spriteX - 400) ($spriteY - 376);
+}
