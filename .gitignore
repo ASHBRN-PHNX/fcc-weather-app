@@ -1,6 +1,6 @@
 # SASS files
-./css/.sass-cache
-./css/*.map
+css/.sass-cache
+css/*.map
 
 # Sensitive Information
-./js/config.js
+js/config.js
